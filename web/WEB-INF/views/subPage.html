@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shine Classic</title>
+    <link rel="shortcut icon" href="./img/title.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/subpage.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="./js/includeHTML.js"></script>
+</head>
+
+<body>
+    <div class="wrapper">
+
+        <header include-html="./header.html">
+            <script>includeHTML();</script>
+        </header>
+    </div>
+    <section>
+        <div class="wrapper">
+            <article class="product">
+                <div id="imgWrapper">
+                    <img src="./img/product/chandelier.jpg" alt="">
+
+                </div>
+                <div class="explain">
+                    <div class="productName">
+                        <div>
+                            14k 샹들리에 귀걸이
+                        </div>
+                    </div>
+                    <div class="text">
+                        <table class="table">
+                            <tr>
+                                <td>가격 : </td>
+                                <td>31,000 원</td>
+                            </tr>
+                            <tr>
+                                <td>골드 소재 : </td>
+                                <td>
+                                    <select name="" id="" class="kind">
+                                        <option class="option" value="14k">14k</option>
+                                        <!-- <option class="option" value="18k">18k</option> -->
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>골드 컬러 : </td>
+                                <td>
+                                    <select name="" class="kind">
+                                        <option class="option" value="red">Red Gold</option>
+                                        <option class="option" value="pink">Pink Gold</option>
+                                        <option class="option" value="pink">Yellow Gold</option>
+
+                                    </select>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+
+            </article>
+        </div>
+        <article class="anotherWrapper">
+            <div class="wrapper">
+                <div class="another">
+
+                    <div class="aProduct">
+                        <a href="./subPage.html">
+                            <div class="inProduct"></div>
+                            <div class="aImage">
+                                <img src="./img/product/chuHeart.jpg" alt="">
+                            </div>
+                            <div class="aName">
+                                14k/18k 츄하트 귀걸이
+                            </div>
+                            <div class="aPrice">
+                                310,000
+                            </div>
+                        </a>
+                    </div>
+                    <div class="aProduct">
+                        <a href="./subPage.html">
+                            <div class="inProduct"></div>
+                            <div class="aImage">
+                                <img src="./img/product/Glossy.jpg" alt="">
+                            </div>
+                            <div class="aName">
+                                14k/18k 글로시 목걸이
+                            </div>
+                            <div class="aPrice">
+                                310,000
+                            </div>
+                        </a>
+                    </div>
+                    <div class="aProduct">
+                        <a href="./subPage.html">
+                            <div class="inProduct"></div>
+                            <div class="aImage">
+                                <img src="./img/product/Hera.jpg" alt="">
+                            </div>
+                            <div class="aName">
+                                14k/18k 헤라 귀걸이
+                            </div>
+                            <div class="aPrice">
+                                310,000
+                            </div>
+                        </a>
+                    </div>
+                    <div class="aProduct">
+                        <a href="./subPage.html">
+                            <div class="inProduct"></div>
+                            <div class="aImage">
+                                <img src="./img/product/sugar.jpg" alt="">
+                            </div>
+                            <div class="aName">
+                                14k/18k 슈가 팔찌
+                            </div>
+                            <div class="aPrice">
+                                310,000
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </article>
+    </section>
+    <footer include-html="footer.html">
+            <script>
+                includeHTML();
+            </script>
+        </footer>
+</body>
+<script>
+    // if($(window).width() >= 1100){
+    //     $('#imgWrapper').width($('#imgWrapper').height());
+    // }
+</script>
+
+</html>

@@ -1,0 +1,58 @@
+.intro{
+    position: relative;
+    background-color: bisque;
+}
+.introText{
+    width: 40%;
+    font-size: 30px;
+    /* position: absolute; */
+    margin: 1% 5%;
+}
+.introImg{
+    /* width: 262px; */
+    height: 90%;
+    /* position: absolute; */
+    margin: 1% 5%;
+}
+.text{
+    top: 33%;
+    max-width: 350px;
+    position: relative;
+    text-align: center;
+}
+.introImg > img{
+    /* width: 262px; */
+    height: 100%;
+    border-radius: 27px;
+}
+.introWrapper{
+    height: 400px;
+    /* overflow: hidden; */
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+
+@media screen and (max-width: 1100px) and (min-width: 521px){
+    .introWrapper{
+        height: 350px;
+        position: relative;
+        display: flex;
+    }
+    .introImg{
+        position: relative;
+    }
+
+}
+@media screen and (max-width : 550px){
+    .text{
+        top: 20%;
+        font-size: 20px;
+    }    
+    .introWrapper{
+        height: 200px;
+        position: relative;
+        display: flex;
+    }
+}

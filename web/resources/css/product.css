@@ -1,0 +1,129 @@
+
+.productContainer{
+    height: 100%;
+    /* background-color: antiquewhite; */
+    display: flex;
+}
+.productContainer img{
+    border-radius: 10%;
+    height: 100%;
+    width: 100%;
+}
+.upProduct {
+    width: 100%;
+    height: 45%;
+    margin-bottom: 10%;
+    background-color: #f4f4f4;
+    border-radius: 10%;
+    
+}
+
+.upProduct:hover {
+    /* background-color: azure; */
+    box-shadow: 1px 1px 10px goldenrod;
+    transition: all 0s cubic-bezier(1,.01,.32,1);
+}
+.downProduct:hover {
+    /* background-color: azure; */
+    box-shadow: 1px 1px 10px goldenrod;
+    transition: all 0s cubic-bezier(1,.01,.32,1);
+}
+.centerProduct:hover {
+    /* background-color: azure; */
+    box-shadow: 1px 1px 10px goldenrod;
+    transition: all 0s cubic-bezier(1,.01,.32,1);
+}
+.downProduct {
+    width: 100%;
+    height: 45%;
+    border-radius: 10%;
+    
+    background-color: #f4f4f4;
+}
+.centerProduct {
+    width: 100%;
+    height: 95%;
+    
+    background-color: #f4f4f4;
+    border-radius: 10%;
+}
+.sideContainer {
+    width: 25%;
+    
+    /* background-color: rgb(247, 247, 187); */
+}
+.centerContainer {
+    width: 50%;
+    
+    /* background-color: rgb(201, 153, 245); */
+}
+.centerProductImg{
+    width: 90%;
+    /* height: 80%; */
+    margin: 0 auto;
+    margin-top: 10%;
+    /* background-color: aqua; */
+}
+.productImg{
+    width: 85%;
+    /* height: 81%; */
+    margin: 0 auto;
+    margin-top: 4%;
+    /* background-color: aqua; */
+}
+.productImg img{
+    width: 100%;
+    height: 100%;
+}
+.product{
+    margin-top: 3%;
+    /* height: 15%; */
+    text-align: center;
+    /* line-height: 15%; */
+    font-size: 16px;
+    font-weight: 600;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+}
+.centerProductName{
+    margin-top: 5%;
+    /* margin-bottom: 5%; */
+    height: 7%;
+    font-size: 24px;
+    font-weight: 400;
+}
+.productPrice{
+    margin-top: 3%;
+    height: 10%;
+    text-align: center;
+}
+
+.centerProductPrice{
+    margin-top: 1%;
+}
+.borderMargin{
+    margin: 0.75vw;
+    /* padding: 0.75vw; */
+}
+.borderPadding{
+    padding: 0.75vw 0 ;
+}
+
+@media screen and (max-width: 750px){
+    .productContainer{
+        display: block;
+        justify-content: center;
+        margin: 0 auto;
+    }
+    .sideContainer{
+        display: flex;
+        justify-content: center;
+        width: 70%;
+        margin: auto;
+    }
+    .centerContainer{
+        margin: 3px auto;
+    }
+}

@@ -1,0 +1,47 @@
+#mapWrapper
+{
+    width: 80%;
+    height: 98%;
+    padding: 1%;
+    margin: 0 auto;
+}
+#map {
+    width: 100%;
+    height: 650px;
+    /* margin: 5% 5% 5% 5%; */
+    margin: 0 auto;
+}
+.mapName{
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #d3aa25;
+    font-style: italic;
+}
+
+.iw_inner {
+    width: 240px;
+}
+.iw_inner a{
+    text-decoration: none;
+}
+.iw_inner a:visited { color: black; }
+.iw_inner a:link { color: black; }
+.mapInner{
+    margin: 2%;
+}
+.iw_inner p{
+    /* width: 350px; */
+    min-width: 210px;
+    margin: 3px 0px;
+}
+.iw_inner .storeImg{
+    width: 150px;
+    height: 150px;
+}
+
+@media screen and (max-width : 750px){
+    #map{
+        height: 400px;
+    }
+
+}
